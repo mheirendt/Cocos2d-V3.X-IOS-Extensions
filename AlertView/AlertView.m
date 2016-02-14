@@ -29,7 +29,7 @@
 - (id)init {
     self = [super init];
     if (self) {
-        CCNode *overlay = [CCSprite spriteWithImageNamed:@"Assets/overlay.png"];
+        CCSprite *overlay = [CCSprite spriteWithImageNamed:@"Assets/overlay.png"];
         overlay.anchorPoint = ccp(.5f,.5f);
         overlay.positionType = CCPositionTypeNormalized;
         overlay.position = ccp(.5f,.5f);
