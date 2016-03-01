@@ -111,6 +111,7 @@
                             
         opt2Label.color = [CCColor colorWithCcColor3b:ccBLACK];
         [opt2Button addChild: opt2Label];
+        [dialog addChild:opt2Button];
     }
     
     opt1Button.positionType = CCPositionTypeNormalized;
@@ -119,7 +120,6 @@
     opt2Button.position = ccp(.7f,.3f);
     
     [dialog addChild:opt1Button];
-    //[dialog addChild:opt2Button];
     [coverLayer addChild:dialog];
     
     // open the dialog with a nice popup-effect
